@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BPlaces</string>
     <string name="bplaces_task">Bey2ollak Places Task</string>
+    <string name="no_data">No Places !!</string>
 </resources>
