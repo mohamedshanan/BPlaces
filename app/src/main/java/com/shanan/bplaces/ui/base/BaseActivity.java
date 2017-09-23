@@ -28,19 +28,17 @@ public abstract class BaseActivity extends AppCompatActivity {
 
 
     private void checkNetWork() {
-        showNoConnection(Utilities.getNetworkState(this));
-//        if (!Utilities.getNetworkState(this)) {
-//            showNoConnection();
-//        }
+        if (!Utilities.getNetworkState(this)) {
+            showNoConnection();
+        }
     }
 
-    protected abstract void showNoConnection(boolean isConnected);
+    protected abstract void showNoConnection();
 
 
     @Override
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
-
         unbinder = ButterKnife.bind(this);
     }
 
