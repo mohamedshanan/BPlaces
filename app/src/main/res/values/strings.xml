@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BPlaces</string>
     <string name="bplaces_task">Bey2ollak Places Task</string>
+    <string name="no_data">No Places !!</string>
+    <string name="places_api_key" translatable="false">AIzaSyDpFRQgtsWmb0ZjMgugdbtTEVMpiuHAM4Q</string>
+    <string name="action_search">Search</string>
 </resources>
