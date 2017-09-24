@@ -6,7 +6,7 @@ package com.shanan.bplaces.rest;
 
 public class ApiConstants {
 
-    static final String API_BASE_URL = "http://bey2ollak-places-task.eu-west-1.elasticbeanstalk.com/api/json/";
+    static final String LOCAL_PLACES_BASE_URL = "http://bey2ollak-places-task.eu-west-1.elasticbeanstalk.com/api/json/";
     static final String GET_PLACES = "places";
 
     static final String PARAM_PAGE = "page";

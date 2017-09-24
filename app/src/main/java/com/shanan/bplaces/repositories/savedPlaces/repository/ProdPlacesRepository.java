@@ -1,4 +1,4 @@
-package com.shanan.bplaces.repositories.Repository;
+package com.shanan.bplaces.repositories.savedPlaces.repository;
 
 import android.util.Log;
 
@@ -31,7 +31,7 @@ public class ProdPlacesRepository implements PlacesRepository {
 
         isLoading = true;
 
-        ApiEndPointInterface apiEndPointInterface = ServiceGenerator.getApiEndPointInterface();
+        ApiEndPointInterface apiEndPointInterface = ServiceGenerator.getLocalPlacesEndPointInterface();
 
         apiEndPointInterface.getSavedPlaces(page, perPage, delay)
                 .subscribeOn(Schedulers.io())

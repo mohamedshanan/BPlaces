@@ -1,6 +1,7 @@
 package com.shanan.bplaces.ui.places;
 
-import com.shanan.bplaces.repositories.Models.Place;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.shanan.bplaces.repositories.savedPlaces.models.Place;
 
 import java.util.List;
 
@@ -39,6 +40,6 @@ public class PlacesContract {
 
         void getSavedPlaces();
 
-        void getGooglePlaces();
+        void getGooglePlaces(String keyWord);
     }
 }
