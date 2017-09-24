@@ -1,4 +1,4 @@
-package com.shanan.bplaces.repositories.Repository;
+package com.shanan.bplaces.repositories.savedPlaces.repository;
 
 /**
  * Created by Shanan on 23/09/2017.

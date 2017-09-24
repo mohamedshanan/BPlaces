@@ -1,6 +1,6 @@
-package com.shanan.bplaces.repositories.Repository;
+package com.shanan.bplaces.repositories.savedPlaces.repository;
 
-import com.shanan.bplaces.repositories.Models.Place;
+import com.shanan.bplaces.repositories.savedPlaces.models.Place;
 
 import java.util.List;
 

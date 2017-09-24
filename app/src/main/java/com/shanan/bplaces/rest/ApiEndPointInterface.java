@@ -1,13 +1,8 @@
 package com.shanan.bplaces.rest;
 
-import com.shanan.bplaces.repositories.Models.Place;
-import com.shanan.bplaces.repositories.Models.SavedPlacesResponse;
+import com.shanan.bplaces.repositories.savedPlaces.models.SavedPlacesResponse;
 
-import java.util.List;
-
-import io.reactivex.Observable;
 import io.reactivex.Single;
-import retrofit2.Response;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
